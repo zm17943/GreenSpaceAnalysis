@@ -1,0 +1,3 @@
+Total surface area: 455.78m²
+Total vegetation surface area from vndvi: 158.95m² (34.9%)
+Garden centroid output with co-ordinate reference system [urn:ogc:def:crs:OGC:1.3:CRS84]

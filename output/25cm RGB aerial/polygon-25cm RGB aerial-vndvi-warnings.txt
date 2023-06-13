@@ -1,0 +1,1 @@
+Image "in/HP/HP01/HP0102.jpg" is sized (52, 54, 3) rather than (52, 52, 3))
