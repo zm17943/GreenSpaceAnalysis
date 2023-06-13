@@ -14,7 +14,7 @@ Raw satellite images are anquired from Google Maps API. ```` Image_location.zip 
 
 Manually labeled masks can be accessed at: https://drive.google.com/drive/folders/1JmGr1TuPsozN3zzU1k3Qzw-sSL1OCI_f?usp=sharing. 
 
-Pixel number to class:  ````0 - Background, 1 - Tree, 2 - Shurb, 3 - Grass````.
+The class each pixel number represents:  ````0 - Background, 1 - Tree, 2 - Shurb, 3 - Grass````.
 
 
 
