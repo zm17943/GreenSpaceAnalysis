@@ -10,7 +10,9 @@ Pixel level annotations for three vegetation classes: Tree, Shrub, Grass are mad
 
 
 
-Raw satellite images are anquired from Google Maps API. ```` Image_location.zip ```` includes the geo-location for each downloaded/labeled image. Source images are not public. 
+Raw satellite images are anquired from Google Maps API. 
+
+Image locations can be found in ```` Image_location.zip ````. It includes the geo-coordinates for each downloaded/labeled image. Source images are not public. 
 
 Manually labeled masks can be accessed at: https://drive.google.com/drive/folders/1JmGr1TuPsozN3zzU1k3Qzw-sSL1OCI_f?usp=sharing. 
 
