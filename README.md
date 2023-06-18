@@ -41,11 +41,4 @@ To adjust the threshold of the vegetation indice classifiers, change ````self.__
 
 
 
-#### Input images:
-The testing satellite image is put under ````in```` folder. The image name and output file name of vegetation prediction are temporarily hardcoded in ````image_loaders.py```` and ````analyse_polygons.py````. ***This is to be automated when processing multiple images.***
 
-
-#### Outputs:
-
-The output results are under ````output```` folder. Specifically, the predicted vegetation proportion is reported in ````polygon-25cm RGB aerial-vndvi-summary.txt````, and the predicted vegetation index map is stored in ````vegetation_index_HP0102.npy````, where pixel value 0 indicates vegetation absense; 1 indicates vegetation presence.
- 
