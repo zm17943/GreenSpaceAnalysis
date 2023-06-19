@@ -42,7 +42,9 @@ The codes are borrowed from the Github repo: https://github.com/datasciencecampu
 
 ````-o````: result output folder
 
-To adjust the threshold of the vegetation indice classifiers, change ````self.__threshold_low```` and ````self.__threshold_high```` in ````vegetation_analysis.py````
+To adjust the threshold of the vegetation indice classifiers, change ````threshold_low```` and ```threshold_high```` in ````analyse_polygons.json````
+
+To indicate the path of the images to analyze, change````folder```` in ````analyse_polygons.json````.
 
 
 
