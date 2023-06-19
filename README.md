@@ -28,14 +28,19 @@ The codes are borrowed from the Github repo: https://github.com/datasciencecampu
 
 
 #### Command to run with vndvi index: 
-````python green_spaces/analyse_polygons.py -pc 1G -i vndvi -wl "25cm RGB aerial" polygon.geojson````
+````python green_spaces/analyse_polygons.py -pc 1G -i vndvi -o "output"````
 
 #### Command to run with VARI index: 
-````python green_spaces/analyse_polygons.py -pc 1G -i vari -wl "25cm RGB aerial" polygon.geojson````
+````python green_spaces/analyse_polygons.py -pc 1G -i vari -o "output"````
 
 #### Command to run with GLI index: 
-````python green_spaces/analyse_polygons.py -pc 1G -i greenleaf -wl "25cm RGB aerial" polygon.geojson````
+````python green_spaces/analyse_polygons.py -pc 1G -i greenleaf -o "output"````
 
+````-pc````: primary cache size
+
+````-i````: vegetation index
+
+````-o````: result output folder
 
 To adjust the threshold of the vegetation indice classifiers, change ````self.__threshold_low```` and ````self.__threshold_high```` in ````vegetation_analysis.py````
 
